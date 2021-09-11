@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chestionar</title>
+  </head>
+  <body>
+
+    <div class="navbar">
+      <img class="logo" src="./imagini/logo.jpg" alt="Logo" width="180px">
+      <nav>
+        <ul>
+          <li><a href="index.html">Acasă</a></li>
+          <li><a href="productie.html">Producție</a></li>
+          <li><a href="produse.html">Produse</a></li>
+          <li><a href="chestionar.html">Chestionar</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-container">
+      <div class="title-container">
+        <h1>Impreuna imbunatatim experienta Chocolateria</h1>
+      </div>
+      <div class="form-container">
+        <form method="GET" class="form">
+        
+          <legend>Informatii personale</legend>
+            <label for="name">Numele tau:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Introdu numele tau"> <br>
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" name="email" required placeholder="Introdu o adresa de email"><br>
+          <br>
+        
+          <legend>Experienta ta cu ciocolateria</legend>
+          <textarea rows="5" cols="20" id="textarea">Scrie cateva cuvinte despre experienta ta cu Chocolateria</textarea><br><br>
+  
+          <p>Ai recomanda si altora Chocolateria?</p>  <br>
+          <input type="radio" name="radio" value="r1">Da<br>
+          <input type="radio" name="radio" value="r2">Nu<br><br>
+  
+          <p>Pe care dintre produsele Chocolateria le recomanzi? </p> <br>
+          <input type="checkbox" name="checkbox" value="c1">Torturi si prajituri<br>
+          <input type="checkbox" name="checkbox" value="c2">Praline<br>
+          <input type="checkbox" name="checkbox" value="c3">Specialitati<br><br>
+          <div class="submit-btn-container">
+            
+            <button class="submit-btn btn" type="submit" >Trimite</button>
+          </div>
+          
+        
+        </form>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p> <script>document.write(new Date().getFullYear())</script> Chocolateria&copy; .All rights reserver</p>
+    </div>
+<!-- JavaScript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
